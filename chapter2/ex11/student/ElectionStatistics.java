@@ -3,21 +3,21 @@ import java.util.Scanner;
 public class ElectionStatistics {
     public static void main(String[] args) {
       
-        Scanner input = new scanner(system.in)
+        Scanner input = new Scanner(System.in);
         System.out.print("Enter Name of 1st Party >> ");
-        string party1 = input.nextLine();
-        System.out.println("Enter # of recieved votes >>");
-        int votes1 = inpt.nextInt();
+        String party1 = input.nextLine();
+        System.out.println("Enter # of received votes >>");
+        int votes1 = input.nextInt();
         input.nextLine();
 
         System.out.println("Enter name of 2nd party >>");
-        string party2 = input.nextLine();
+        String party2 = input.nextLine();
         System.out.println("Enter # of recieved votes >>");
         int votes2 = input.nextInt();
         input.nextLine();
 
         System.out.println("Enter name of 3rd party >>");
-        string party3 = input.nextLine();
+        String party3 = input.nextLine();
         System.out.println("Enter # of recieved votes >>");
         int votes3 = input.nextInt();
 
