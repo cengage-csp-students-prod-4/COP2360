@@ -1,7 +1,5 @@
 import java.util.Scanner;
 
-Import java.util.Scanner; 
-
 public class ElectionStatistics {
     public static void main(String[] args) {
       
