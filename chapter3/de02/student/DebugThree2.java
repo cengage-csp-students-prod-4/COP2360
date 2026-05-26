@@ -9,17 +9,17 @@ public class DebugThree2
       System.out.print("Enter an integer >> ");
       a = input.nextInt();
       System.out.print("Enter a second integer >> ");
-      a = input.nextInt();
+      b = input.nextInt();
       System.out.print("Enter a third integer >> ");
-      a = input.nextInt();
+      c = input.nextInt();
       add(a, b);
       add(b, c);
       add(a, c);
-      subtact(a, b);
-      subtact(b, c);
-      subtact(a, c);  
+      subtract(a, b);
+      subtract(b, c);
+      subtract(a, c);  
    }
-   public static int add(int a, int  b)
+   public static void add(int a, int  b)
    {
       System.out.println("The sum of " + a +
          " and " + b + " is " + a + b);
@@ -27,6 +27,6 @@ public class DebugThree2
    public static void subtract(int a, int b)
    {
       System.out.println("The difference between " +
-         a + " and  + b + " is  +  (a - b));
+         a + " and "  + b + " is " +  (a - b));
    }
 }
