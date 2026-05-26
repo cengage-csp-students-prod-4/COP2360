@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `add()` method returns or display two integers added together.
+Reason: The two integers used in this simulation were 1 and 2. The `add()` method did not return or display '3'.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `add()` method returns or display two integers added together.
+Reason: The two integers used in this simulation were 45 and 55. The `add()` method did not return or display '100'.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
