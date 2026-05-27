@@ -1,0 +1,12 @@
+
+Status: FAILED!
+Test: The `DebugFour3` program accepts user input and displays the correct output.
+Reason: In this simulation, the dimensions of the box are 15x10x5. Unable to find the box's volume '750.0' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DebugFour3` program accepts user input and displays the correct output.
+Reason: In this simulation, the dimensions of the box are 20x12x9. Unable to find the box's volume '750.0' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
