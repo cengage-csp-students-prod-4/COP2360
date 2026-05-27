@@ -22,7 +22,7 @@ public class NumbersDemo {
                  public static void displayNumberPlusFive(int n) {
                     System.out.println(n + "plus 5 is" + (n + 5));
 }
-public static void main(int n) {
-    
+public static void displayNumberSquared(int n) {
+ System.out.println(n + "squared is" + (n * n));    
 }
 }
