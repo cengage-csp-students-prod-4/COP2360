@@ -20,7 +20,7 @@ public class DebugBox
       System.out.println("Width: "  + width + "  Length: " +
         length + "  Height: " + height);
    }
-   public getVolume()
+   public double getVolume()
    { 
       double vol = length * width * height;
       return vol;
