@@ -1,5 +1,5 @@
 import java.time.LocalDate;
-public class FitnessTracker{
+public class FitnessTracker {
     private String activity;
     private int minutes;
     private LocalDate date;
