@@ -1,0 +1,18 @@
+import java.time.LocalDate;
+public class FitnessTracker{
+    private String activity;
+    private int minutes;
+    private LocalDate date;
+
+    public FitnessTracker() {
+        this.activity = "running";
+        this.minutes = 0;
+        this.date = LocalDate.of(LocalDate.now().getYear(), 1, 1)
+    }
+    public FitnessTracker(String activity, int minutes, LocalDate date){
+        this.activity = activity;
+        this.minutes = minutes;
+        this.date = date;
+        
+    }
+}
