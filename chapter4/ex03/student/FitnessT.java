@@ -13,6 +13,8 @@ public class FitnessTracker{
         this.activity = activity;
         this.minutes = minutes;
         this.date = date;
-        
     }
+    public String getActivity() {return activity; }
+    public int getMinutes() { return minutes;}
+    public LocalDate getDate() {return date;}
 }
