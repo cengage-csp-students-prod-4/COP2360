@@ -6,9 +6,21 @@ public class NumbersDemo {
         System.out.print("enter another integer >>");
         int num1 = input.nextInt();
         System.out.print("Enter another integer");
-        int num2 = inpt.nextInt();
+        int num2 = input.nextInt();
 
+        displayTwiceTheNumber(num1);
+        displayNumberPlusFive(num1);
+        displayNumberSquared(num1);
 
-
-    }
+        displayTwiceTheNumber(num2);
+        displayNumberPlusFive(num2);
+        displayNumberSquared(num2);
+            }
+            public static void displayTwiceTheNumber(int n) {
+                System.out.println(n + "times 2 is " + (n * 2));
+                 }
+                 public static void displayNumberPlusFive(int n) {
+                    System.out.println(n + "plus 5 is" + (n + 5));
+                    
+                 }
 }
