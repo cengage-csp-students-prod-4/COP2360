@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class CellPhoneService {
     public static void main(String[] args) {
-        scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
      
          
         System.out.print("Enter maximum monthly talk minutes: ");
@@ -24,11 +24,22 @@ public class CellPhoneService {
         }else if (minutes < 500) {
             if (texts == 0) {
                 plan = "Plan A";
-                price = 
+                price = 49;
+        } else {
+            plan = "Plan B";
+            price = 55;
         }
+    } else { if ( texts < 100) {
+        plan = "Plan C"; 
+        price = 61;
+    }else{
+        plan = "Plan D";
+        price = 70;
+    }
 
          }
 
+         System.out.println("The recommended plan is " + plan + " at $" + price +"per month.");
     }
     
-}lass
+}
