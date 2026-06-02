@@ -4,9 +4,3 @@ Status: FAILED!
 Reason: The `DebugFive2` class contains a logic error within a decision statement.
 Error : class java.lang.AssertionError
 - - - - - - - - - -
-
-Test: The `DebugFive2` class does not contain an arithmetic logic error.
-Status: FAILED!
-Reason: Logic errors are more difficult to find as the code will still work but may produce unexpected results. The `DebugFive2` class contains an arithmetic logic error. expected:<2> but was:<1>
-Error : class java.lang.AssertionError
-- - - - - - - - - -
