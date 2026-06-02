@@ -9,9 +9,9 @@ public class DebugFive2
       int num2;
       Scanner input = new Scanner(System.in);
       System.out.print("Enter a number ");
-      num = input.nextInt;
+      num = input.nextInt();
       System.out.print("Enter another number ");
-      num2 = input.nextInt;
+      num2 = input.nextInt();
       if((num % num2 == 0) && (num2 / num) == 0)
       {
          System.out.println("One of these numbers is");
