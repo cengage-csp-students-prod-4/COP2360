@@ -7,16 +7,19 @@ public static void main(String[] args) {
     System.out.print("Enter a maximum number >> "); 
     int max = input.nextInt();
 
-    for (int number = 1; number <= max; number++) {
-        int sum = 0;
-
-        for (int i = 1; i < number; i++) {
-            if (number % i == 0) {
-                sum += i;
-            }
-        }
-        if (sum == number && number != 0) {
-            System.out.println(number);
+    for (int num = 1; num <= max; num++)
+        if (isPerfect(num)) {
+            System.out.println("The number " + num + " is perfect");
         }
     }
+}
+public static boolean isPerfect(int n) {
+    if (n < 2) return false;
+    int sum = 0;
+    for (int i  1; i <= n / 2; i++) {
+        if (n % 1 == 0) {
+            sum += i;
+        }
+    }
+    return sum == n;
 }
