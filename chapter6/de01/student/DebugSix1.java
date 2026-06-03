@@ -18,5 +18,6 @@ public class DebugSix1
          ++day;
          System.out.println("After day " + days + " you have " + money);
       ++day;    }
+      keyboard.close();
    }
 }
