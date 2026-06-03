@@ -1,18 +1,7 @@
 
 Status: FAILED!
-Test: The `DebugSix1` program accepts user input and displays the correct output.
-Reason: In this simulations, the number of days is 15. On day 4, there should be $0.08.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `DebugSix1` program accepts user input and displays the correct output.
-Reason: In this simulations, the number of days is 22. On day 22, there should be $20,971.52.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `DebugSix1` program accepts user input and displays the correct output.
-Reason: In this simulations, the number of days is 27. On day 27, there should be $671,088.64.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Check: 1
+Test: 
+Reason: 
+Error : RuntimeError - There was an issue compiling the java files.
+Timestamp: 2026-06-03 19:08:26.513283
