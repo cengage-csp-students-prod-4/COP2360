@@ -7,11 +7,13 @@ public static void main(String[] args) {
     System.out.print("Enter a maximum number >> "); 
     int max = input.nextInt();
 
-    for (int num = 1; num <= max; num++)
+    for (int num = 1; num <= max; num++) {
         if (isPerfect(num)) {
             System.out.println("The number " + num + " is perfect");
         }
     }
+    input.close();
+}
 
 public static boolean isPerfect(int n) {
     if (n < 2) return false;
