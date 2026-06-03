@@ -1,6 +1,6 @@
 // Write your code here
 import java.util.Scanner;
-public class Perfect {}
+public class Perfect {
 public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
@@ -16,7 +16,7 @@ public static void main(String[] args) {
             }
         }
         if (sum == number && number != 0) {
-            System.out.println("The number " + number + " is perfect");
+            System.out.println(number);
         }
     }
 }
