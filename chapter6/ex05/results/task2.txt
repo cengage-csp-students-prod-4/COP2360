@@ -1,7 +1,7 @@
 
 Status: FAILED!
 Test: The `Perfect` program determines if an input value is perfect.
-Reason: The simulated user input was 28. 28 is a perfect number. The program should display '28' in the program's output.
+Reason: The simulated user input was 28. 28 is a perfect number. The program should display '6' in the program's output.
 Error : class java.lang.AssertionError
 - - - - - - - - - -
 

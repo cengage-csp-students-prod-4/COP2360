@@ -4,14 +4,13 @@ public class Perfect {
 public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
 
-    System.out.print("Enter a maximum number >> "); 
-    int max = input.nextInt();
-
-    for (int num = 1; num <= max; num++) {
-        if (isPerfect(num)) {
-            System.out.println("The number " + num + " is perfect");
-        }
-    }
+    System.out.print("Enter a number >> "); 
+    int num = input.nextInt();
+if (isPerfect(num)) {
+    System.out.println("The number" + num + " is perfect " );
+} else {
+    System.out.println("The number " + num + " is not perfect ");
+}
     input.close();
 }
 
