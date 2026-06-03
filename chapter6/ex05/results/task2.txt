@@ -1,7 +1,12 @@
 
 Status: FAILED!
-Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the java files.
-Timestamp: 2026-06-03 20:58:12.956048
+Test: The `Perfect` program determines if an input value is perfect.
+Reason: The simulated user input was 28. 28 is a perfect number. The program should display '28' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `Perfect` program determines if an input value is perfect.
+Reason: The simulated user input was 496. 496 is a perfect number. The program should display '28' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
