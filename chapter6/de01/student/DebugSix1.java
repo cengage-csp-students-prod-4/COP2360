@@ -16,8 +16,7 @@ public class DebugSix1
       {
          money = 2 * money;
          ++day;
-         System.out.println("After day " + days +
-            " you have " + money);
-      }
+         System.out.println("After day " + days + " you have " + money);
+      ++day;    }
    }
 }
