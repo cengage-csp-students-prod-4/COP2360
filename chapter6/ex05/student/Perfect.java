@@ -15,7 +15,7 @@ public static void main(String[] args) {
                 sum += i;
             }
         }
-        if (sum == number) {
+        if (sum == number && number != 0) {
             System.out.println("The number " + number + " is perfect");
         }
     }
