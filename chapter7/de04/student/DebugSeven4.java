@@ -27,6 +27,6 @@ public class DebugSeven4
       System.out.println();
       System.out.println
          ("The number of CHARACTERS in the string is " + stringLength);
-      System.out.println("The number of LETTERS is" + numLetters);
+      System.out.println("The number of LETTERS is " + numLetters);
    }
 }
