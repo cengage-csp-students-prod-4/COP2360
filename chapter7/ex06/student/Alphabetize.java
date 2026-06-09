@@ -1,7 +1,7 @@
 // Write your code here
 import java.util.Scanner;
 
-public class alphabetize {
+public class Alphabetize {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
