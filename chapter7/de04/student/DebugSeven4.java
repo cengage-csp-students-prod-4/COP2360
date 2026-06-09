@@ -19,7 +19,7 @@ public class DebugSeven4
       System.out.print("In all lowercase, the String is: ");
       for(int i = 0; i <= stringLength; i++)
       {
-         char ch = Character.toLowerCase(aStringcharAt(i));
+         char ch = Character.toLowerCase(aString.charAt(i));
          System.out.print(ch);
          if(!Character.isLetter(ch))
             numLetters++;
