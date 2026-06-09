@@ -15,7 +15,7 @@ public class alphabetize {
         if (str1.compareToIgnoreCase(str2) <= 0 && str2.compareToIgnoreCase(str3) <= 0) {
             System.out.println("Yes, the strings entered are in alphabetical order");
         } else {
-            System.out.println("No. te strings entered are not in alpabetical order");
+            System.out.println("No. the strings entered are not in alpabetical order");
         }
 
     }
