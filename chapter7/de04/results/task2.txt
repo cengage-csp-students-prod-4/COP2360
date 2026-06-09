@@ -1,12 +1,12 @@
 
 Status: FAILED!
 Test: The `DebugSeven4` program displays information about a `String`.
-Reason: Index 49 out of bounds for length 49
-Error : class java.lang.StringIndexOutOfBoundsException
+Reason: The `String` in this simulation is '1600 Pennsylvania Avenue NW, Washington, DC 20500'. There are 32 letters in the `String`. Unable to find '32' in the program's output.
+Error : class java.lang.AssertionError
 - - - - - - - - - -
 
 Status: FAILED!
 Test: The `DebugSeven4` program displays information about a `String`.
-Reason: Index 41 out of bounds for length 41
-Error : class java.lang.StringIndexOutOfBoundsException
+Reason: The `String` in this simulation is 'One First Street NE, Washington, DC 20500'. There are 28 letters in the `String`. Unable to find '28' in the program's output.
+Error : class java.lang.AssertionError
 - - - - - - - - - -

@@ -17,7 +17,7 @@ public class DebugSeven4
       aString = kb.nextLine();
       stringLength = aString.length();
       System.out.print("In all lowercase, the String is: ");
-      for(int i = 0; i <= stringLength; i++)
+      for(int i = 0; i < stringLength; i++)
       {
          char ch = Character.toLowerCase(aString.charAt(i));
          System.out.print(ch);
