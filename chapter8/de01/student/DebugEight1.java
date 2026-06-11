@@ -31,7 +31,7 @@ public class DebugEight1
             found = true;
          }
       }
-      if(!found)
+      if(found)
          System.out.println("Good code");
       else
          System.out.println("Sorry code not found");

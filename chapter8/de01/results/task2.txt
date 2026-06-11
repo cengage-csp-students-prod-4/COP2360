@@ -1,24 +1,6 @@
 
-Status: FAILED!
-Test: The `DebugEight1` program accepts user input and displays the correct output.
-Reason: In this simulation, A was the input code. A is a valid code. 'Good code' should be displayed in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `DebugEight1` program accepts user input and displays the correct output.
-Reason: In this simulation, C was the input code. C is a valid code. 'Good code' should be displayed in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `DebugEight1` program accepts user input and displays the correct output.
-Reason: In this simulation, T was the input code. T is a valid code. 'Good code' should be displayed in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
-
-Status: FAILED!
-Test: The `DebugEight1` program accepts user input and displays the correct output.
-Reason: In this simulation, H was the input code. H is a valid code. 'Good code' should be displayed in the program's output.
-Error : class java.lang.AssertionError
-- - - - - - - - - -
+Status: PASSED!
+Check: 1
+Test: 
+Reason: None
+Timestamp: 2026-06-11 18:30:03.336047
