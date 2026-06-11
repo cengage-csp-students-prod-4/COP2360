@@ -26,7 +26,7 @@ public class DebugEight1
       userCode = entry.charAt(0);
       for(int i = 0; i < okayCodes.length; ++i)
       {
-         if(userCode = okayCodes[1])
+         if(userCode == okayCodes[i])
          {
             found = true;
          }
