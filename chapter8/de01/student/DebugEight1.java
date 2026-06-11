@@ -15,7 +15,7 @@ public class DebugEight1
       char[] okayCodes = {'A','C','T','H'};
       System.out.println("Enter shipping code for this delivery.");
       System.out.print("Valid codes are: ");
-      for(int x = 0; x < okayCodes.length; ++x)
+      for(int x = 0; x < 2; ++x)
       {
           System.out.print(okayCodes[x]);
           if(x != (okayCodes.length - 1))
