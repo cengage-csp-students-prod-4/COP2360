@@ -1,6 +1,24 @@
 
-Status: PASSED!
-Check: 1
-Test: 
-Reason: None
-Timestamp: 2026-06-11 18:24:54.085969
+Status: FAILED!
+Test: The `DebugEight1` program accepts user input and displays the correct output.
+Reason: In this simulation, R was the input code. R is an invalid code. 'code not found' should be displayed in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DebugEight1` program accepts user input and displays the correct output.
+Reason: In this simulation, Q was the input code. Q is an invalid code. 'code not found' should be displayed in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DebugEight1` program accepts user input and displays the correct output.
+Reason: In this simulation, M was the input code. M is an invalid code. 'code not found' should be displayed in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DebugEight1` program accepts user input and displays the correct output.
+Reason: In this simulation, Z was the input code. Z is an invalid code. 'code not found' should be displayed in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
