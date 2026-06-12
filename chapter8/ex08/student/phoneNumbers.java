@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PhoneNumbers{
+public class phoneNumbers{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
