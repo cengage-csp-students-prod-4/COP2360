@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class phoneNumbers{
+public class PhoneNumbers{
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -62,7 +62,7 @@ public class phoneNumbers{
                         i = count;
                     }
                 }
-                if (foundIndex = -1) {
+                if (foundIndex != -1) {
                     System.out.println(searchName + 
                         "'s Phone number is" + phoneNumbers[foundIndex]
                     );
