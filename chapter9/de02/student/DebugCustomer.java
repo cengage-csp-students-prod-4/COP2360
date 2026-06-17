@@ -12,6 +12,6 @@ public class DebugCustomer
     public void display()
     {
        System.out.println("Customer #" + idNumber 
-          " Name: " +  name + "\nCredit limit $" + creditLimit);
+       + " Name: " + name + "\nCredit limit $" + creditLimit);
     }
 }

@@ -10,10 +10,10 @@ public class DebugCustomerMakingPurchase extends DebugCustomer
        if(amountOfPurchase > creditLimit)
           overLimit = true;
        else
-          overLimit = true;
+          overLimit = false;
     }
     @Override
-    public display()
+    public void display()
     {
        super.display();
        System.out.println("Purchase amount $" + amountOfPurchase);
