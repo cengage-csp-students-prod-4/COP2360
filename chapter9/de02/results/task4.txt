@@ -1,7 +1,12 @@
 
 Status: FAILED!
-Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the java files.
-Timestamp: 2026-06-17 23:44:46.878002
+Test: The `DebugNine2` program accepts user input and displays the correct output.
+Reason: In this simulation, the customer last name is Karaboue. Unable to to find 'Karaboue' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DebugNine2` program accepts user input and displays the correct output.
+Reason: In this simulation, the customer last name is Axmed. Unable to to find 'Axmed' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
