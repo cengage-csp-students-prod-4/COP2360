@@ -9,6 +9,7 @@ public class DebugNine2
       int id;
       String name;
       double purchase;
+      double credit;
       System.out.print("Enter customer ID >> ");
       id = input.nextInt();
       input.nextLine();
