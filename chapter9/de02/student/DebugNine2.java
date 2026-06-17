@@ -18,7 +18,7 @@ public class DebugNine2
       System.out.print("Enter customer's credit limit >> ");
       credit = input.nextDouble();
       System.out.print("Enter customer's purchase amount >> ");
-      purchase = input.nextDouble;   
+      purchase = input.nextDouble();   
       DebugCustomerMakingPurchase cust = new
          DebugCustomerMakingPurchase(id, name, credit, purchase);
       cust.display();
