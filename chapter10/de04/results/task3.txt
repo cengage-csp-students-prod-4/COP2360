@@ -1,7 +1,12 @@
 
 Status: FAILED!
-Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the java files.
-Timestamp: 2026-06-18 05:48:14.539466
+Test: The `DebugTen4` program executes and catches any `Exception` thrown for invalid input.
+Reason: In this simulation, the input values were 73, 1038, 376, 698, 180, and 898. Unable to find '376' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DebugTen4` program executes and catches any `Exception` thrown for invalid input.
+Reason: In this simulation, the input values were 325, 767, 659, 1062, 062, and 432. Unable to find '325' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
