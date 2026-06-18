@@ -21,12 +21,12 @@ public class DebugTen4
             if(emps[x] > MAX)
             {
                throw new DebugEmployeeIDException
-                  ("Number too high " + emps[x]));
+                  ("Number too high " + emps[x]);
             }
             if(emps[x] < MIN)
             {
                throw new DebugEmployeeIDException
-                  ("Number too low " + emps[x]));
+                  ("Number too low " + emps[x]);
             }
          }
          catch(NumberFormatException error)
