@@ -12,11 +12,11 @@ public class TeeShirt
     public void setSize(String size)
     {
         this.size = size;
-        if(size.equalsIgnoreCase("XXL")) ||
+        if(size.equalsIgnoreCase("XXL")) 
         size.equalsIgnoreCase("XXXL")
         {
             price = 22.99;
-        };
+        }
         else
         {
             price = 19.99;
