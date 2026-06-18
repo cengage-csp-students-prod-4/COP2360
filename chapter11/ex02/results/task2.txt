@@ -1,7 +1,6 @@
 
 Status: FAILED!
-Check: 1
-Test: 
-Reason: 
-Error : RuntimeError - There was an issue compiling the java files.
-Timestamp: 2026-06-18 20:36:40.535140
+Test: The `FileSizeComparison` class displays the correct comparison data between a text file and a word-processing file.
+Reason: The lyric.txt file has a size of 37 bytes. Unable to find '37' bytes in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
