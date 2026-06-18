@@ -1,7 +1,9 @@
-public class DebugEmployeeIDException extends Exxception
+public class DebugEmployeeIDException extends Exception
 {
    public DebugEmployeeIDException(String s)
    {
       super(s);
+   
    }
+}      
 

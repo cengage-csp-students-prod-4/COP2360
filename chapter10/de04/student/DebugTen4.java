@@ -20,12 +20,12 @@ public class DebugTen4
             emps[x] = Integer.parseInt(inStr);
             if(emps[x] > MAX)
             {
-               throw(DebugEmployeeIDException
+               throw new DebugEmployeeIDException
                   ("Number too high " + emps[x]));
             }
             if(emps[x] < MIN)
             {
-               throw(DebugEmployeeIDException
+               throw new DebugEmployeeIDException
                   ("Number too low " + emps[x]));
             }
          }
