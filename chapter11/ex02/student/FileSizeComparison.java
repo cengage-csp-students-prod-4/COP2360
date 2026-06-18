@@ -11,7 +11,7 @@ public class FileSizeComparison
         String textFileName = input.nextLine();
 
         System.out.print("Enter the name of the Word file >> ");
-        Strong wordFileName = input.nextLine();
+        String wordFileName = input.nextLine();
 
         File textFile = new File(textFileName);
         File wordFile = new File(wordFileName);
