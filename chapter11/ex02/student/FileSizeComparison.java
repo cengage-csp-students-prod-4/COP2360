@@ -20,8 +20,13 @@ public class FileSizeComparison
         long wordSize = wordFile.length();
 
         double percent = ((double) textSize / wordSize) * 100;
+        
         System.out.println(textFileName + " is " + textSize + " bytes long");
-        System.out.println("The text file is " + percent + "% of the size of the word file");
+
+        System.out.println(wordFileName + " is " wordSize + " bytes long");
+
+        System.out.println("The text file is " + percent + "% of the size of the Word file");
+        
         input.close();
         }
 }
