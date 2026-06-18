@@ -58,7 +58,14 @@ public class DemoTees
     System.out.print("Enter slogan for shirt >> ");
     custom2.setSlogan(input.nextLine());
 
+    System.out.println();
+    displayTee(shirt1);
+    displayTee(shirt2);
+    displayCustomTee(custom1);
+     displayCustomTee(custom2);
 
+     input.close();
+ 
     
 
 
