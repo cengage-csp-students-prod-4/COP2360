@@ -1,0 +1,6 @@
+
+Status: FAILED!
+Test: Create the `ThrowUsedCarException` class.
+Reason: Unable to locate the `ThrowUsedCarException` class. ThrowUsedCarException
+Error : class java.lang.ClassNotFoundException
+- - - - - - - - - -
