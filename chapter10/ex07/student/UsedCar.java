@@ -9,7 +9,7 @@ public class UsedCar {
         if(vin.length() != 4)
             throw new UsedCarException(vin);
 
-        boolean ValidMake = false;
+        boolean validMake = false;
 
         if(make.equalsIgnoreCase("Ford"))
             validMake = true;
