@@ -20,10 +20,10 @@ public class DemoTees
     shirt1.setColor(input.nextLine());
 
     System.out.print("Enter size >> ");
-    shirt1.setSize(input.nextLine())
+    shirt1.setSize(input.nextLine());
 
      System.out.print("Enter order number >> ");
-    shirt2.setOrderNumber(input.nextLine()) 
+    shirt2.setOrderNumber(input.nextLine());
     input.nextLine();
 
     System.out.print("Enter color >> ");
@@ -70,4 +70,5 @@ public class DemoTees
 
 
 
+}
 }
