@@ -1,0 +1,18 @@
+
+Status: FAILED!
+Test: The `FileSizeComparison` class displays the correct comparison data between a text file and a word-processing file.
+Reason: The lyric.docx file has a size of 11856 bytes. Unable to find '11856' bytes in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `FileSizeComparison` class displays the correct comparison data between a text file and a word-processing file.
+Reason: The example.docx file has a size of 12317 bytes. Unable to find '12317' bytes in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `FileSizeComparison` class displays the correct comparison data between a text file and a word-processing file.
+Reason: The example2.docx file has a size of 12232 bytes. Unable to find '12232' bytes in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
