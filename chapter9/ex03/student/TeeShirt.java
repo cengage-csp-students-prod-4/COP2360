@@ -13,11 +13,14 @@ public class TeeShirt
     {
         this.size = size;
         if(size.equalsIgnoreCase("XXL")) 
-        size.equalsIgnoreCase("XXXL")
         {
             price = 22.99;
         }
-        else
+        else if(size.equalsIgnoreCase("XXXL"))
+        {
+            price = 22.99;
+        }
+        else 
         {
             price = 19.99;
         }
