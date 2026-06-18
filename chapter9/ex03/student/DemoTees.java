@@ -13,5 +13,11 @@ public class DemoTees
         CustomTee custom2 = new CustomTee();
     
     System.out.print("Enter order number >> ");
-    shirt1.setOrderNumber(input.nextInt())
+    shirt1.setOrderNumber(input.nextInt());
+    input.nextLine();
+
+    System.out.print("Enter color >> ");
+    shirt1.setColor(input.nextLine());
+
+    
 }
