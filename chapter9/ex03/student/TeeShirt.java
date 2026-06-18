@@ -16,7 +16,7 @@ public class TeeShirt
         size.equalsIgnoreCase("XXXL")
         {
             price = 22.99;
-        }
+        };
         else
         {
             price = 19.99;
