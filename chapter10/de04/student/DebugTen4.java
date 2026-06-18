@@ -40,6 +40,11 @@ public class DebugTen4
 	    --x;
             System.out.println(error.toString());
          }
+         catch(Exception error)
+         {
+            --x;
+            System.out.println(Error.toString());
+         }
       }
       System.out.print("Four valid IDs are: ");
       for(int x = 1; x < emps.length; ++x)
