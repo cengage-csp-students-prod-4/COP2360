@@ -13,7 +13,7 @@ public class DebugEleven2
 {
    public static void main(String[] args)
    {
-      Scanner kb = new Scanner(system.in);
+      Scanner kb = new Scanner(System.in);
       Path fileIn =
          Paths.get("DebugData3.txt");
       Path fileOut =
@@ -25,20 +25,20 @@ public class DebugEleven2
       OutputStream output = null;
       System.out.print("Enter area code to add to numbers >> ");
       areaCode = kb.nextLine();
-      formattedCode = "(" + areacode + ") ";
+      formattedCode = "(" + areaCode + ") ";
       try
       {
          input = Files.newInputStream(fileIn);
          BufferedReader reader = new BufferedReader
             (new InputStreamReader(input));
-         output = Files.newOutputStream(fileout);
+         output = Files.newOutputStream(fileOut);
          phone = reader.readLine();
          while(phone != null)
          {
             phone = formattedCode + phone +
-               System.getProperty(line.separator);
+               System.getProperty("line.separator");
             byte[] phoneBytes = phone.getBytes();
-            output.write(phoneByters);
+            output.write(phoneBytes);
             phone = reader.readLine();
          }
          input.close();
