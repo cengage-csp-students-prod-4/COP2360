@@ -1,0 +1,18 @@
+
+Status: FAILED!
+Test: The `DebugTwelve1` program accepts user input and displays the correct output.
+Reason: In this simulation, the number of repititions is 5. Unable to find 'Counting 1' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DebugTwelve1` program accepts user input and displays the correct output.
+Reason: In this simulation, the number of repititions is 7. Unable to find 'Counting 1' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
+
+Status: FAILED!
+Test: The `DebugTwelve1` program accepts user input and displays the correct output.
+Reason: In this simulation, the number of repititions is 9. Unable to find 'Counting 1' in the program's output.
+Error : class java.lang.AssertionError
+- - - - - - - - - -
