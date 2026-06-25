@@ -10,7 +10,7 @@ public class DebugTwelve1
       String userInput;
       System.out.print("Enter number of repetitions >> ");
       userInput = input.nextLine();
-      reps = Integer.parseint(userInput);
+      reps = Integer.parseInt(userInput);
       repMethod(reps);
    }
    public static void repMethod(int reps)
